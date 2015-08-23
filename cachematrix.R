@@ -4,7 +4,7 @@
 ## Write a short comment describing this function
 ## List can handle matrix, too.  So, it is basically the same logic as the example.
 
-makeCacheMatrix <- function(x = numeric()) {
+makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y){
     x <<- y
