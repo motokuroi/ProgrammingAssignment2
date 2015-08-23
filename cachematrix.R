@@ -14,8 +14,6 @@ makeCacheMatrix <- function(x = matrix()) {
        getsolve = getsolve)
 }
 
-
-
 ## As the example showed, the list contains x and solve(x) can answer the question without computing.
 
 cacheSolve <- function(x, ...) {
