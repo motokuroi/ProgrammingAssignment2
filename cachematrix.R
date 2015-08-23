@@ -1,7 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
 ## List can handle matrix, too.  So, it is basically the same logic as the example.
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -19,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+
 ## As the example showed, the list contains x and solve(x) can answer the question without computing.
 
 cacheSolve <- function(x, ...) {
